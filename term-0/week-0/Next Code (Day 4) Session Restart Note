@@ -1,0 +1,43 @@
+# Next Code Session Restart Note
+
+## Where we stopped
+I created Day 3 notes locally, but they are NOT showing on GitHub yet because `git push` did not authenticate.
+
+## Current repo path
+~/Desktop/Maestro/01 GitHub Repos/python-practice/term-0/week-0
+
+## File created
+day-3-git-terminal-notes.md
+
+## Current issue
+GitHub asked for username/password during:
+
+git push origin main
+
+Username should be:
+seagramkern8-dev
+
+Password must be a GitHub Personal Access Token, NOT my GitHub password.
+
+## Next steps
+1. Open Terminal
+2. Go to repo:
+
+cd ~/Desktop/Maestro/"01 GitHub Repos"/python-practice
+
+3. Check status:
+
+git status
+
+4. Push commits:
+
+git push origin main
+
+5. If asked:
+- Username: seagramkern8-dev
+- Password: paste GitHub Personal Access Token
+
+## Goal
+Get `day-3-git-terminal-notes.md` to appear on GitHub inside:
+
+python-practice / term-0 / week-0
